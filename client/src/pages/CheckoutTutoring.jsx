@@ -2,7 +2,6 @@ import { Box, Typography } from "@mui/material";
 import BodyContainer from "../components/BodyContainer";
 import TutoringService from "../components/TutoringService";
 import axios from "axios";
-import "dotenv/config";
 
 const CheckoutTutoring = () => {
   const onSubmit = async (e) => {

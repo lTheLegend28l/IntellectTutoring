@@ -16,6 +16,7 @@ const CheckoutProgram = () => {
           },
         }
       );
+      console.log(response);
       window.location.href = response.data;
     } catch (err) {
       console.log(err);

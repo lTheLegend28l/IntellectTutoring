@@ -8,7 +8,7 @@ const CheckoutProgram = () => {
     e.preventDefault();
     try {
       const response = await axios.post(
-        "http://localhost:3001/create-program-checkout-session"
+        "/.netlify/functions/create-program-checkout-session" //  "http://localhost:3001/create-program-checkout-session"
       );
       window.location.href = response.data;
     } catch (err) {

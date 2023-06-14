@@ -31,7 +31,6 @@ const Program = ({ onSubmit, price }) => {
                 $985
               </Typography>
             </Box>
-
             <Box marginLeft="10px">
               <Typography variant="h6" fontWeight="700" lineHeight="1.4">
                 * Money Back <br /> Guarantee

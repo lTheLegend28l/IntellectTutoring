@@ -1,0 +1,8 @@
+{
+    "name": "netlify-functions",
+    "dependencies": {
+      "axios": "^0.24.0",
+      "stripe": "^8.164.0"
+    }
+  }
+  

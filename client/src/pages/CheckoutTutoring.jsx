@@ -8,7 +8,7 @@ const CheckoutTutoring = () => {
     e.preventDefault();
     try {
       const response = await axios.post(
-        "http://localhost:3001/create-tutoring-checkout-session"
+        "/.netlify/functions/create-tutoring-checkout-session" // "http://localhost:3001/create-tutoring-checkout-session"
       );
       window.location.href = response.data;
     } catch (err) {

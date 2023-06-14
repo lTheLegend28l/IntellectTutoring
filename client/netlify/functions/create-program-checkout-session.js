@@ -15,7 +15,10 @@ exports.handler = async () => {
       cancel_url: `${process.env.DOMAIN}/checkout/program?canceled=true`,
     });
 
-    res.send(session.url);
+    return {
+      statusCode: 200,
+      body: session.url,
+    };
   } catch (error) {
     return { statusCode: 500, body: error.toString() };
   }

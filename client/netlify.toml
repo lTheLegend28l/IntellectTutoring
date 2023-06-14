@@ -1,5 +1,5 @@
 [build]
-  command = "npm run build"  # Specify the build command for your project
+  command = "npm run build && cd netlify && npm i"  # Specify the build command for your project
   publish = "build"          # Specify the directory to publish
 
 [context.deploy-preview.environment]  # Set environment variables for deploy previews
